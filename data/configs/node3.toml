@@ -1,0 +1,11 @@
+bootnodes=["enode://6ad4d78f7ada3ac6a03e11c5397242851c3730e44920ef5c8cfff4810de01c1e04f8e85fcab958dfed32b1cff2b7b4500751aa4ddd46daa1827d833046c65b94@127.0.0.1:30303"]
+
+p2p-port="30305"
+
+rpc-http-enabled=true
+rpc-http-host="0.0.0.0"
+rpc-http-api=["ADMIN,ETH,NET,WEB3,IBFT,PERM,DEBUG,MINER,EEA,PRIV,TXPOOL"]
+rpc-http-cors-origins=["all"]
+rpc-http-port="22002"
+
+host-whitelist=["*"]

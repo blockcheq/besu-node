@@ -1,0 +1,13 @@
+bootnodes=[]
+
+p2p-port="30303"
+
+rpc-http-enabled=true
+rpc-http-host="0.0.0.0"
+rpc-http-api=["ADMIN,ETH,NET,WEB3,IBFT,PERM,DEBUG,MINER,EEA,PRIV,TXPOOL"]
+rpc-http-cors-origins=["all"]
+rpc-http-port="22000"
+
+host-whitelist=["*"]
+
+min-gas-price=0
